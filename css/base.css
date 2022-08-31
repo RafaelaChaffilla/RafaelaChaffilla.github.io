@@ -1,0 +1,29 @@
+body {
+    background-image: url('../img/hotelsweet.jpeg');
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#header_div,
+#second_div{
+    height: 100vh;
+}
+
+#second_div{
+    display: grid;
+    align-items: center;
+}
+
+h1{
+    font-weight: bold!important;
+}
+
+.container{
+    text-align: center;
+}
+
+.box{
+    background-color: rgb(240 248 255 / 80%);
+    border-radius: 10px;
+}
