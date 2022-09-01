@@ -1,2 +1,2 @@
 # RafaelaChaffilla.github.io
-ttt's birthday and we making big money moves
+ttt's birthday and the bimbo summit is arriving
