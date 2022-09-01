@@ -1,9 +1,21 @@
+:root{
+    --shadow_color: red;
+}
+
 body {
     background-image: url('../img/hotelsweet.jpeg');
     background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        background-repeat: repeat;
+        background-size: contain;
+    }
+    
 }
 #header_div,
 #second_div{
@@ -19,11 +31,69 @@ h1{
     font-weight: bold!important;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .container{
     text-align: center;
+}
+
+.header_title{
+    text-shadow: 1px 1px 4px var(--shadow_color);
 }
 
 .box{
     background-color: rgb(240 248 255 / 80%);
     border-radius: 10px;
+}
+
+.reaction-icons{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin: 20px 0;
+    width: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: seashell;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+#rct-icns {
+    animation: cssAnimation 4s forwards;
+    opacity: 0;
+}
+
+@keyframes cssAnimation {
+    95%{
+        opacity: 0;
+    }
+    99%{
+        opacity: 0.1;
+    }
+    99.99%{
+        opacity: 0.2;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.reaction-icons p{
+    color: bisque;
+    background: black;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
+
+.reaction-icons i{
+    font-size: 3em;
+    margin: 5px;
+}
+
+.fk{
+    background-image: url('../img/fake.jpeg')!important;
 }
