@@ -49,6 +49,12 @@
         width: 100%;
     }
 
+    p{
+        color: white;
+        height: 0px;
+        margin-top: 7%;
+    }
+
     ::-webkit-input-placeholder {
     color: #955;
     text-align: center;
@@ -71,6 +77,9 @@
 	<div id="loginbox" class="lightbox" >
 		<div class="horizontal">
 			<div class="vertical">
+                <div style="height: 0px;">
+                    <p>Só pessoas com acesso podem aceder. Por favor digite a password que lhe foi fornecida!</p>
+                </div>
 				<div class="box">
 					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="password?" /> <br />
 					<button id="loginbutton" type="button">Enter</button>
