@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Só pessoas fixes têm permissão"
-AuthUserFile ./sec/.htsecurity
-require valid-user
