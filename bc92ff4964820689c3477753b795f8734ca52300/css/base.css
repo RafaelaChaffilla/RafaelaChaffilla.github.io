@@ -40,8 +40,28 @@ html{
     text-align: center;
 }
 
-.header_title{
+.header_title p{
     text-shadow: 1px 1px 4px var(--shadow_color);
+    font-size: 20px;
+}
+
+.header_title h1{
+    font-size: 60px;
+    text-shadow: 1px 1px 15px var(--shadow_color);
+}
+
+.header_title h2{
+    font-size: 36px;
+    text-shadow: 1px 1px 15px var(--shadow_color);
+    font-weight: bold!important;
+    word-break: break-word;
+}
+
+.center-bix{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
 }
 
 .box{
@@ -111,7 +131,8 @@ html{
     text-shadow: 0 0 4px black;
 }
 
-#faketext:hover{
+#faketext:hover,
+#faketext:target{
     display: none;
 }
 
